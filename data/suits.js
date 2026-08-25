@@ -45,7 +45,7 @@ export const suits = [
     "id": "suit-8",
     "name": "バンシィ・ノルン",
     "cost": 3000,
-    "rank": "B"
+    "rank": "A-"
   },
   {
     "id": "suit-9",
@@ -153,7 +153,7 @@ export const suits = [
     "id": "suit-26",
     "name": "∀ガンダム",
     "cost": 3000,
-    "rank": "B"
+    "rank": "B＋"
   },
   {
     "id": "suit-27",
@@ -1359,7 +1359,7 @@ export const suits = [
     "id": "suit-227",
     "name": "ガンダムダブルオーダイバーエース",
     "cost": 2000,
-    "rank": "A"
+    "rank": "S"
   },
   {
     "id": "suit-228",
