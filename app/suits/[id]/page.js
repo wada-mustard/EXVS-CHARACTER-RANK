@@ -290,8 +290,8 @@ export default function SuitPage({ params }) {
     Wikiを見る ↗
   </a>
 )}
+  
           </div>
-
         </article>
 
         <div className="back-links">
