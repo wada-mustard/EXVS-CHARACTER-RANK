@@ -94,7 +94,7 @@ export const suits = [
     "id": "suit-16",
     "name": "ペーネロペー",
     "cost": 3000,
-    "rank": "A"
+    "rank": "A-"
   },
   {
     "id": "suit-17",
@@ -112,7 +112,7 @@ export const suits = [
     "id": "suit-19",
     "name": "マスターガンダム",
     "cost": 3000,
-    "rank": "B＋"
+    "rank": "A-"
   },
   {
     "id": "suit-20",
@@ -370,7 +370,7 @@ export const suits = [
     "id": "suit-62",
     "name": "ガンダムF91",
     "cost": 2500,
-    "rank": "A"
+    "rank": "A＋"
   },
   {
     "id": "suit-63",
@@ -394,7 +394,7 @@ export const suits = [
     "id": "suit-66",
     "name": "ユニコーンガンダム3号機フェネクス",
     "cost": 2500,
-    "rank": "A"
+    "rank": "A-"
   },
   {
     "id": "suit-67",
@@ -406,13 +406,13 @@ export const suits = [
     "id": "suit-68",
     "name": "トーリスリッター",
     "cost": 2500,
-    "rank": "A＋"
+    "rank": "A"
   },
   {
     "id": "suit-69",
     "name": "ガンダム試作3号機",
     "cost": 2500,
-    "rank": "A＋"
+    "rank": "S"
   },
   {
     "id": "suit-70",
@@ -796,7 +796,7 @@ export const suits = [
     "id": "suit-133",
     "name": "アースリィガンダム",
     "cost": 2500,
-    "rank": "B"
+    "rank": "B＋"
   },
   {
     "id": "suit-134",
@@ -874,7 +874,7 @@ export const suits = [
     "id": "suit-146",
     "name": "ディジェ",
     "cost": 2000,
-    "rank": "A-"
+    "rank": "A"
   },
   {
     "id": "suit-147",
@@ -1090,7 +1090,7 @@ export const suits = [
     "id": "suit-182",
     "name": "ガンダムX",
     "cost": 2000,
-    "rank": "B＋"
+    "rank": "B"
   },
   {
     "id": "suit-183",
