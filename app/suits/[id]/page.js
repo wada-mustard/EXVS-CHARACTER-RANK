@@ -13,6 +13,12 @@ export default function SuitPage({ params }) {
     );
   }
 
+  // 機体名を使ってWiki内検索へ移動
+  const wikiUrl =
+    "https://w.atwiki.jp/exvs2infiniteboost/?cmd=search&word=" +
+    encodeURIComponent(suit.name) +
+    "&type=OR";
+
   return (
     <>
       <style>{`
@@ -151,6 +157,22 @@ export default function SuitPage({ params }) {
           line-height: 1.8;
         }
 
+        .wiki-link {
+          display: block;
+          margin-top: 20px;
+          padding: 14px;
+          background: #111827;
+          color: white;
+          text-align: center;
+          border-radius: 10px;
+          font-weight: 700;
+          text-decoration: none;
+        }
+
+        .wiki-link:hover {
+          opacity: 0.85;
+        }
+
         .back-links {
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -270,28 +292,18 @@ export default function SuitPage({ params }) {
               </p>
             </div>
 
-{suit.wiki && (
-  <a
-    href={suit.wiki}
-    target="_blank"
-    rel="noopener noreferrer"
-    style={{
-      display: "block",
-      marginTop: "20px",
-      padding: "14px",
-      background: "#111827",
-      color: "white",
-      textAlign: "center",
-      borderRadius: "10px",
-      fontWeight: "700",
-      textDecoration: "none",
-    }}
-  >
-    Wikiを見る ↗
-  </a>
-)}
-  
+            {/* Wikiボタン */}
+            <a
+              href={wikiUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="wiki-link"
+            >
+              Wikiを見る ↗
+            </a>
+
           </div>
+
         </article>
 
         <div className="back-links">
