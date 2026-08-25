@@ -15,8 +15,8 @@ export const suits = [
     "id": "suit-3",
     "name": "νガンダム",
     "cost": 3000,
-    "rank": "A＋"
-    wiki: "https://w.atwiki.jp/exvs2infiniteboost/pages/177.html"
+    "rank": "A＋",
+    wiki: "https://w.atwiki.jp/exvs2infiniteboost/pages/177.html",
   },
   {
     "id": "suit-4",
