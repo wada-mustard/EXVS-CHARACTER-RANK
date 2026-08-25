@@ -1012,7 +1012,7 @@ export const suits = [
     "id": "suit-169",
     "name": "高機動型ゲルググ(ヴィンセント機)",
     "cost": 2000,
-    "rank": "C"
+    "rank": "B"
   },
   {
     "id": "suit-170",
