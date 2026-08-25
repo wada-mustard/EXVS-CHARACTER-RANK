@@ -1,1521 +1,1522 @@
 export const suits = [
-  {
+{
     "id": "suit-1",
     "name": "フルアーマーZZガンダム",
     "cost": 3000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%95%E3%83%AB%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%BCZZ%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-2",
     "name": "キュベレイ",
     "cost": 3000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AD%E3%83%A5%E3%83%99%E3%83%AC%E3%82%A4"},
+{
     "id": "suit-3",
     "name": "νガンダム",
     "cost": 3000,
     "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/pages/177.html"
     wiki: "https://w.atwiki.jp/exvs2infiniteboost/pages/177.html",
   },
-  {
+{
     "id": "suit-4",
     "name": "サザビー",
     "cost": 3000,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B5%E3%82%B6%E3%83%93%E3%83%BC"},
+{
     "id": "suit-5",
     "name": "V2ガンダム",
     "cost": 3000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=V2%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-6",
     "name": "フルアーマー・ユニコーンガンダム",
     "cost": 3000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%95%E3%83%AB%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%BB%E3%83%A6%E3%83%8B%E3%82%B3%E3%83%BC%E3%83%B3%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-7",
     "name": "ユニコーンガンダム",
     "cost": 3000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%A6%E3%83%8B%E3%82%B3%E3%83%BC%E3%83%B3%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-8",
     "name": "バンシィ・ノルン",
     "cost": 3000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%90%E3%83%B3%E3%82%B7%E3%82%A3%E3%83%BB%E3%83%8E%E3%83%AB%E3%83%B3"},
+{
     "id": "suit-9",
     "name": "シナンジュ",
     "cost": 3000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B7%E3%83%8A%E3%83%B3%E3%82%B8%E3%83%A5"},
+{
     "id": "suit-10",
     "name": "Ex-Sガンダム",
     "cost": 3000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=Ex-S%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-11",
     "name": "νガンダムHWS",
     "cost": 3000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%CE%BD%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0HWS"},
+{
     "id": "suit-12",
     "name": "Hi-νガンダム",
     "cost": 3000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=Hi-%CE%BD%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-13",
     "name": "ナイチンゲール",
     "cost": 3000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%8A%E3%82%A4%E3%83%81%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%AB"},
+{
     "id": "suit-14",
     "name": "RX-93ff νガンダム",
     "cost": 3000,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=RX-93ff%20%CE%BD%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-15",
     "name": "Ξガンダム",
     "cost": 3000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%CE%9E%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-16",
     "name": "ペーネロペー",
     "cost": 3000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%9A%E3%83%BC%E3%83%8D%E3%83%AD%E3%83%9A%E3%83%BC"},
+{
     "id": "suit-17",
     "name": "クロスボーン・ガンダムX1フルクロス",
     "cost": 3000,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AF%E3%83%AD%E3%82%B9%E3%83%9C%E3%83%BC%E3%83%B3%E3%83%BB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0X1%E3%83%95%E3%83%AB%E3%82%AF%E3%83%AD%E3%82%B9"},
+{
     "id": "suit-18",
     "name": "ゴッドガンダム",
     "cost": 3000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B4%E3%83%83%E3%83%89%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-19",
     "name": "マスターガンダム",
     "cost": 3000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-20",
     "name": "ウイングガンダムゼロ",
     "cost": 3000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A6%E3%82%A4%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%BC%E3%83%AD"},
+{
     "id": "suit-21",
     "name": "ガンダムエピオン",
     "cost": 3000,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%A8%E3%83%94%E3%82%AA%E3%83%B3"},
+{
     "id": "suit-22",
     "name": "ウイングガンダムゼロ(EW版)",
     "cost": 3000,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A6%E3%82%A4%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%BC%E3%83%AD%28EW%E7%89%88%29"},
+{
     "id": "suit-23",
     "name": "トールギスIII",
     "cost": 3000,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%88%E3%83%BC%E3%83%AB%E3%82%AE%E3%82%B9III"},
+{
     "id": "suit-24",
     "name": "ガンダムDX",
     "cost": 3000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0DX"},
+{
     "id": "suit-25",
     "name": "ガンダムヴァサーゴ・チェストブレイク",
     "cost": 3000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%B4%E3%82%A1%E3%82%B5%E3%83%BC%E3%82%B4%E3%83%BB%E3%83%81%E3%82%A7%E3%82%B9%E3%83%88%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF"},
+{
     "id": "suit-26",
     "name": "∀ガンダム",
     "cost": 3000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E2%88%80%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-27",
     "name": "ターンX",
     "cost": 3000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%BF%E3%83%BC%E3%83%B3X"},
+{
     "id": "suit-28",
     "name": "デスティニーガンダム",
     "cost": 3000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%87%E3%82%B9%E3%83%86%E3%82%A3%E3%83%8B%E3%83%BC%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-29",
     "name": "ストライクフリーダムガンダム",
     "cost": 3000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF%E3%83%95%E3%83%AA%E3%83%BC%E3%83%80%E3%83%A0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-30",
     "name": "インフィニットジャスティスガンダム",
     "cost": 3000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A3%E3%83%8B%E3%83%83%E3%83%88%E3%82%B8%E3%83%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%82%B9%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-31",
     "name": "マイティーストライクフリーダムガンダム",
     "cost": 3000,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%9E%E3%82%A4%E3%83%86%E3%82%A3%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF%E3%83%95%E3%83%AA%E3%83%BC%E3%83%80%E3%83%A0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-32",
     "name": "インフィニットジャスティスガンダム弐式",
     "cost": 3000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A3%E3%83%8B%E3%83%83%E3%83%88%E3%82%B8%E3%83%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%82%B9%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E5%BC%90%E5%BC%8F"},
+{
     "id": "suit-33",
     "name": "ブラックナイトスコード カルラ",
     "cost": 3000,
-    "rank": "新機体"
-  },
-  {
+    "rank": "新機体",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%20%E3%82%AB%E3%83%AB%E3%83%A9"},
+{
     "id": "suit-34",
     "name": "ダブルオーガンダム",
     "cost": 3000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%80%E3%83%96%E3%83%AB%E3%82%AA%E3%83%BC%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-35",
     "name": "リボーンズガンダム",
     "cost": 3000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%AA%E3%83%9C%E3%83%BC%E3%83%B3%E3%82%BA%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-36",
     "name": "ダブルオークアンタ",
     "cost": 3000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%80%E3%83%96%E3%83%AB%E3%82%AA%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%B3%E3%82%BF"},
+{
     "id": "suit-37",
     "name": "ガンダムサバーニャ",
     "cost": 3000,
-    "rank": "S"
-  },
-  {
+    "rank": "S",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%B5%E3%83%90%E3%83%BC%E3%83%8B%E3%83%A3"},
+{
     "id": "suit-38",
     "name": "ガンダムハルート",
     "cost": 3000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%8F%E3%83%AB%E3%83%BC%E3%83%88"},
+{
     "id": "suit-39",
     "name": "ダブルオークアンタ フルセイバー",
     "cost": 3000,
-    "rank": "S"
-  },
-  {
+    "rank": "S",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%80%E3%83%96%E3%83%AB%E3%82%AA%E3%83%BC%E3%82%AF%E3%82%A2%E3%83%B3%E3%82%BF%20%E3%83%95%E3%83%AB%E3%82%BB%E3%82%A4%E3%83%90%E3%83%BC"},
+{
     "id": "suit-40",
     "name": "ダブルオーガンダム セブンソード／G",
     "cost": 3000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%80%E3%83%96%E3%83%AB%E3%82%AA%E3%83%BC%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%20%E3%82%BB%E3%83%96%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%89%EF%BC%8FG"},
+{
     "id": "suit-41",
     "name": "ヤークトアルケーガンダム",
     "cost": 3000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%A4%E3%83%BC%E3%82%AF%E3%83%88%E3%82%A2%E3%83%AB%E3%82%B1%E3%83%BC%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-42",
     "name": "ガンダムAGE-FX",
     "cost": 3000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0AGE-FX"},
+{
     "id": "suit-43",
     "name": "ガンダムAGE-2 ダークハウンド",
     "cost": 3000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0AGE-2%20%E3%83%80%E3%83%BC%E3%82%AF%E3%83%8F%E3%82%A6%E3%83%B3%E3%83%89"},
+{
     "id": "suit-44",
     "name": "ガンダムレギルス",
     "cost": 3000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%AC%E3%82%AE%E3%83%AB%E3%82%B9"},
+{
     "id": "suit-45",
     "name": "G-セルフ(パーフェクトパック)",
     "cost": 3000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=G-%E3%82%BB%E3%83%AB%E3%83%95%28%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%91%E3%83%83%E3%82%AF%29"},
+{
     "id": "suit-46",
     "name": "カバカーリー",
     "cost": 3000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AB%E3%83%90%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC"},
+{
     "id": "suit-47",
     "name": "ガンダム・バルバトスルプスレクス",
     "cost": 3000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%BB%E3%83%90%E3%83%AB%E3%83%90%E3%83%88%E3%82%B9%E3%83%AB%E3%83%97%E3%82%B9%E3%83%AC%E3%82%AF%E3%82%B9"},
+{
     "id": "suit-48",
     "name": "ガンダム・バエル",
     "cost": 3000,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%BB%E3%83%90%E3%82%A8%E3%83%AB"},
+{
     "id": "suit-49",
     "name": "ガンダム・キマリスヴィダール",
     "cost": 3000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%BB%E3%82%AD%E3%83%9E%E3%83%AA%E3%82%B9%E3%83%B4%E3%82%A3%E3%83%80%E3%83%BC%E3%83%AB"},
+{
     "id": "suit-50",
     "name": "スタービルドストライクガンダム",
     "cost": 3000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%93%E3%83%AB%E3%83%89%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-51",
     "name": "ホットスクランブルガンダム",
     "cost": 3000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%9B%E3%83%83%E3%83%88%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%B3%E3%83%96%E3%83%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-52",
     "name": "ガンダムダブルオースカイ",
     "cost": 3000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%80%E3%83%96%E3%83%AB%E3%82%AA%E3%83%BC%E3%82%B9%E3%82%AB%E3%82%A4"},
+{
     "id": "suit-53",
     "name": "エクストリームガンダム type-レオスII Vs.",
     "cost": 3000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%20type-%E3%83%AC%E3%82%AA%E3%82%B9II%20Vs."},
+{
     "id": "suit-54",
     "name": "N-EXTREMEガンダム エクスプロージョン",
     "cost": 3000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=N-EXTREME%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%20%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%97%E3%83%AD%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3"},
+{
     "id": "suit-55",
     "name": "ジオング",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B8%E3%82%AA%E3%83%B3%E3%82%B0"},
+{
     "id": "suit-56",
     "name": "Zガンダム",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=Z%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-57",
     "name": "百式",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E7%99%BE%E5%BC%8F"},
+{
     "id": "suit-58",
     "name": "ジ・O",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B8%E3%83%BBO"},
+{
     "id": "suit-59",
     "name": "バウンド・ドック",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%90%E3%82%A6%E3%83%B3%E3%83%89%E3%83%BB%E3%83%89%E3%83%83%E3%82%AF"},
+{
     "id": "suit-60",
     "name": "ハンブラビ",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%8F%E3%83%B3%E3%83%96%E3%83%A9%E3%83%93"},
+{
     "id": "suit-61",
     "name": "ZZガンダム",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=ZZ%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-62",
     "name": "ガンダムF91",
     "cost": 2500,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0F91"},
+{
     "id": "suit-63",
     "name": "ゴトラタン",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B4%E3%83%88%E3%83%A9%E3%82%BF%E3%83%B3"},
+{
     "id": "suit-64",
     "name": "リグ・コンティオ",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%AA%E3%82%B0%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%86%E3%82%A3%E3%82%AA"},
+{
     "id": "suit-65",
     "name": "バンシィ",
     "cost": 2500,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%90%E3%83%B3%E3%82%B7%E3%82%A3"},
+{
     "id": "suit-66",
     "name": "ユニコーンガンダム3号機フェネクス",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%A6%E3%83%8B%E3%82%B3%E3%83%BC%E3%83%B3%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A03%E5%8F%B7%E6%A9%9F%E3%83%95%E3%82%A7%E3%83%8D%E3%82%AF%E3%82%B9"},
+{
     "id": "suit-67",
     "name": "TX-ff104 アリュゼウス",
     "cost": 2500,
-    "rank": "S"
-  },
-  {
+    "rank": "S",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=TX-ff104%20%E3%82%A2%E3%83%AA%E3%83%A5%E3%82%BC%E3%82%A6%E3%82%B9"},
+{
     "id": "suit-68",
     "name": "トーリスリッター",
     "cost": 2500,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%88%E3%83%BC%E3%83%AA%E3%82%B9%E3%83%AA%E3%83%83%E3%82%BF%E3%83%BC"},
+{
     "id": "suit-69",
     "name": "ガンダム試作3号機",
     "cost": 2500,
-    "rank": "S"
-  },
-  {
+    "rank": "S",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E8%A9%A6%E4%BD%9C3%E5%8F%B7%E6%A9%9F"},
+{
     "id": "suit-70",
     "name": "ガンダム試作2号機",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E8%A9%A6%E4%BD%9C2%E5%8F%B7%E6%A9%9F"},
+{
     "id": "suit-71",
     "name": "オーヴェロン",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AA%E3%83%BC%E3%83%B4%E3%82%A7%E3%83%AD%E3%83%B3"},
+{
     "id": "suit-72",
     "name": "クロスボーン・ガンダムX3",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AF%E3%83%AD%E3%82%B9%E3%83%9C%E3%83%BC%E3%83%B3%E3%83%BB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0X3"},
+{
     "id": "suit-73",
     "name": "クロスボーン・ガンダムX1改",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AF%E3%83%AD%E3%82%B9%E3%83%9C%E3%83%BC%E3%83%B3%E3%83%BB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0X1%E6%94%B9"},
+{
     "id": "suit-74",
     "name": "クロスボーン・ガンダムX2改",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AF%E3%83%AD%E3%82%B9%E3%83%9C%E3%83%BC%E3%83%B3%E3%83%BB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0X2%E6%94%B9"},
+{
     "id": "suit-75",
     "name": "ファントムガンダム",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%95%E3%82%A1%E3%83%B3%E3%83%88%E3%83%A0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-76",
     "name": "ビギナ・ギナII(木星決戦仕様)",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%93%E3%82%AE%E3%83%8A%E3%83%BB%E3%82%AE%E3%83%8AII%28%E6%9C%A8%E6%98%9F%E6%B1%BA%E6%88%A6%E4%BB%95%E6%A7%98%29"},
+{
     "id": "suit-77",
     "name": "ガンダムシュピーゲル",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%B7%E3%83%A5%E3%83%94%E3%83%BC%E3%82%B2%E3%83%AB"},
+{
     "id": "suit-78",
     "name": "アルトロンガンダム",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%83%AB%E3%83%88%E3%83%AD%E3%83%B3%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-79",
     "name": "トールギスII",
     "cost": 2500,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%88%E3%83%BC%E3%83%AB%E3%82%AE%E3%82%B9II"},
+{
     "id": "suit-80",
     "name": "トールギス",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%88%E3%83%BC%E3%83%AB%E3%82%AE%E3%82%B9"},
+{
     "id": "suit-81",
     "name": "ガンダムデスサイズヘル(EW版)",
     "cost": 2500,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%87%E3%82%B9%E3%82%B5%E3%82%A4%E3%82%BA%E3%83%98%E3%83%AB%28EW%E7%89%88%29"},
+{
     "id": "suit-82",
     "name": "ガンダムヘビーアームズ改(EW版)",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%98%E3%83%93%E3%83%BC%E3%82%A2%E3%83%BC%E3%83%A0%E3%82%BA%E6%94%B9%28EW%E7%89%88%29"},
+{
     "id": "suit-83",
     "name": "ガンダムXディバイダー",
     "cost": 2500,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0X%E3%83%87%E3%82%A3%E3%83%90%E3%82%A4%E3%83%80%E3%83%BC"},
+{
     "id": "suit-84",
     "name": "ガンダムアシュタロン・ハーミットクラブ",
     "cost": 2500,
-    "rank": "新機体"
-  },
-  {
+    "rank": "新機体",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%A2%E3%82%B7%E3%83%A5%E3%82%BF%E3%83%AD%E3%83%B3%E3%83%BB%E3%83%8F%E3%83%BC%E3%83%9F%E3%83%83%E3%83%88%E3%82%AF%E3%83%A9%E3%83%96"},
+{
     "id": "suit-85",
     "name": "ゴールドスモー",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89%E3%82%B9%E3%83%A2%E3%83%BC"},
+{
     "id": "suit-86",
     "name": "フリーダムガンダム",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%95%E3%83%AA%E3%83%BC%E3%83%80%E3%83%A0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-87",
     "name": "ジャスティスガンダム",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B8%E3%83%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%82%B9%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-88",
     "name": "パーフェクトストライクガンダム",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-89",
     "name": "プロヴィデンスガンダム",
     "cost": 2500,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%97%E3%83%AD%E3%83%B4%E3%82%A3%E3%83%87%E3%83%B3%E3%82%B9%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-90",
     "name": "レジェンドガンダム",
     "cost": 2500,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%AC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%89%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-91",
     "name": "アカツキ",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%82%AB%E3%83%84%E3%82%AD"},
+{
     "id": "suit-92",
     "name": "インパルスガンダム",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A4%E3%83%B3%E3%83%91%E3%83%AB%E3%82%B9%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-93",
     "name": "デスティニーガンダム(ハイネ機)",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%87%E3%82%B9%E3%83%86%E3%82%A3%E3%83%8B%E3%83%BC%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%28%E3%83%8F%E3%82%A4%E3%83%8D%E6%A9%9F%29"},
+{
     "id": "suit-94",
     "name": "ストライクノワール",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF%E3%83%8E%E3%83%AF%E3%83%BC%E3%83%AB"},
+{
     "id": "suit-95",
     "name": "ライジングフリーダムガンダム",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%A9%E3%82%A4%E3%82%B8%E3%83%B3%E3%82%B0%E3%83%95%E3%83%AA%E3%83%BC%E3%83%80%E3%83%A0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-96",
     "name": "アストレイレッドフレーム改",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AC%E3%82%A4%E3%83%AC%E3%83%83%E3%83%89%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E6%94%B9"},
+{
     "id": "suit-97",
     "name": "アストレイレッドフレーム(レッドドラゴン)",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AC%E3%82%A4%E3%83%AC%E3%83%83%E3%83%89%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%28%E3%83%AC%E3%83%83%E3%83%89%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%29"},
+{
     "id": "suit-98",
     "name": "アストレイブルーフレームD",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AC%E3%82%A4%E3%83%96%E3%83%AB%E3%83%BC%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0D"},
+{
     "id": "suit-99",
     "name": "アストレイゴールドフレーム天ミナ",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AC%E3%82%A4%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E5%A4%A9%E3%83%9F%E3%83%8A"},
+{
     "id": "suit-100",
     "name": "ドレッドノートイータ",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%89%E3%83%AC%E3%83%83%E3%83%89%E3%83%8E%E3%83%BC%E3%83%88%E3%82%A4%E3%83%BC%E3%82%BF"},
+{
     "id": "suit-101",
     "name": "ケルディムガンダム",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B1%E3%83%AB%E3%83%87%E3%82%A3%E3%83%A0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-102",
     "name": "アリオスガンダム",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%83%AA%E3%82%AA%E3%82%B9%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-103",
     "name": "セラヴィーガンダム",
     "cost": 2500,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%BB%E3%83%A9%E3%83%B4%E3%82%A3%E3%83%BC%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-104",
     "name": "アルケーガンダム",
     "cost": 2500,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%83%AB%E3%82%B1%E3%83%BC%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-105",
     "name": "スサノオ",
     "cost": 2500,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B9%E3%82%B5%E3%83%8E%E3%82%AA"},
+{
     "id": "suit-106",
     "name": "ラファエルガンダム",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%A9%E3%83%95%E3%82%A1%E3%82%A8%E3%83%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-107",
     "name": "ブレイヴ指揮官用試験機",
     "cost": 2500,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%96%E3%83%AC%E3%82%A4%E3%83%B4%E6%8C%87%E6%8F%AE%E5%AE%98%E7%94%A8%E8%A9%A6%E9%A8%93%E6%A9%9F"},
+{
     "id": "suit-108",
     "name": "アヴァランチエクシア",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%83%B4%E3%82%A1%E3%83%A9%E3%83%B3%E3%83%81%E3%82%A8%E3%82%AF%E3%82%B7%E3%82%A2"},
+{
     "id": "suit-109",
     "name": "ガンダムAGE-2",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0AGE-2"},
+{
     "id": "suit-110",
     "name": "ガンダムAGE-3",
     "cost": 2500,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0AGE-3"},
+{
     "id": "suit-111",
     "name": "ガンダムAGE-1 フルグランサ",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0AGE-1%20%E3%83%95%E3%83%AB%E3%82%B0%E3%83%A9%E3%83%B3%E3%82%B5"},
+{
     "id": "suit-112",
     "name": "ゼイドラ",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%BC%E3%82%A4%E3%83%89%E3%83%A9"},
+{
     "id": "suit-113",
     "name": "フォーンファルシア",
     "cost": 2500,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%95%E3%82%A9%E3%83%BC%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AB%E3%82%B7%E3%82%A2"},
+{
     "id": "suit-114",
     "name": "G-セルフ",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=G-%E3%82%BB%E3%83%AB%E3%83%95"},
+{
     "id": "suit-115",
     "name": "ダハック",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%80%E3%83%8F%E3%83%83%E3%82%AF"},
+{
     "id": "suit-116",
     "name": "ガンダム・バルバトスルプス",
     "cost": 2500,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%BB%E3%83%90%E3%83%AB%E3%83%90%E3%83%88%E3%82%B9%E3%83%AB%E3%83%97%E3%82%B9"},
+{
     "id": "suit-117",
     "name": "ガンダム・グシオンリベイクフルシティ",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%BB%E3%82%B0%E3%82%B7%E3%82%AA%E3%83%B3%E3%83%AA%E3%83%99%E3%82%A4%E3%82%AF%E3%83%95%E3%83%AB%E3%82%B7%E3%83%86%E3%82%A3"},
+{
     "id": "suit-118",
     "name": "アトラスガンダム",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%83%88%E3%83%A9%E3%82%B9%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-119",
     "name": "フルアーマー・ガンダム",
     "cost": 2500,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%95%E3%83%AB%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%BB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-120",
     "name": "サイコ・ザク",
     "cost": 2500,
-    "rank": "S"
-  },
-  {
+    "rank": "S",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B5%E3%82%A4%E3%82%B3%E3%83%BB%E3%82%B6%E3%82%AF"},
+{
     "id": "suit-121",
     "name": "ガンダム・エアリアル(改修型)",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%BB%E3%82%A8%E3%82%A2%E3%83%AA%E3%82%A2%E3%83%AB%28%E6%94%B9%E4%BF%AE%E5%9E%8B%29"},
+{
     "id": "suit-122",
     "name": "ガンダム・エアリアル(改修型)パーメットスコア・エイト",
     "cost": 2500,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%BB%E3%82%A8%E3%82%A2%E3%83%AA%E3%82%A2%E3%83%AB%28%E6%94%B9%E4%BF%AE%E5%9E%8B%29%E3%83%91%E3%83%BC%E3%83%A1%E3%83%83%E3%83%88%E3%82%B9%E3%82%B3%E3%82%A2%E3%83%BB%E3%82%A8%E3%82%A4%E3%83%88"},
+{
     "id": "suit-123",
     "name": "ダリルバルデ",
     "cost": 2500,
-    "rank": "S"
-  },
-  {
+    "rank": "S",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%80%E3%83%AA%E3%83%AB%E3%83%90%E3%83%AB%E3%83%87"},
+{
     "id": "suit-124",
     "name": "GQuuuuuuX",
     "cost": 2500,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=GQuuuuuuX"},
+{
     "id": "suit-125",
     "name": "ウイングガンダムフェニーチェ",
     "cost": 2500,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A6%E3%82%A4%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%95%E3%82%A7%E3%83%8B%E3%83%BC%E3%83%81%E3%82%A7"},
+{
     "id": "suit-126",
     "name": "戦国アストレイ頑駄無",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E6%88%A6%E5%9B%BD%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AC%E3%82%A4%E9%A0%91%E9%A7%84%E7%84%A1"},
+{
     "id": "suit-127",
     "name": "キュベレイパピヨン",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AD%E3%83%A5%E3%83%99%E3%83%AC%E3%82%A4%E3%83%91%E3%83%94%E3%83%A8%E3%83%B3"},
+{
     "id": "suit-128",
     "name": "トライバーニングガンダム",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%88%E3%83%A9%E3%82%A4%E3%83%90%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-129",
     "name": "ライトニングガンダムフルバーニアン",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%95%E3%83%AB%E3%83%90%E3%83%BC%E3%83%8B%E3%82%A2%E3%83%B3"},
+{
     "id": "suit-130",
     "name": "スターウイニングガンダム",
     "cost": 2500,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%A6%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-131",
     "name": "トランジェントガンダム",
     "cost": 2500,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-132",
     "name": "RX-零丸",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=RX-%E9%9B%B6%E4%B8%B8"},
+{
     "id": "suit-133",
     "name": "アースリィガンダム",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%83%BC%E3%82%B9%E3%83%AA%E3%82%A3%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-134",
     "name": "ウォドムポッド+",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A6%E3%82%A9%E3%83%89%E3%83%A0%E3%83%9D%E3%83%83%E3%83%89%2B"},
+{
     "id": "suit-135",
     "name": "騎士ガンダム",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E9%A8%8E%E5%A3%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-136",
     "name": "エクストリームガンダム エクリプス-F",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%20%E3%82%A8%E3%82%AF%E3%83%AA%E3%83%97%E3%82%B9-F"},
+{
     "id": "suit-137",
     "name": "エクストリームガンダム ゼノン-F",
     "cost": 2500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%20%E3%82%BC%E3%83%8E%E3%83%B3-F"},
+{
     "id": "suit-138",
     "name": "エクストリームガンダム アイオス-F",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%20%E3%82%A2%E3%82%A4%E3%82%AA%E3%82%B9-F"},
+{
     "id": "suit-139",
     "name": "エクストリームガンダム エクセリア",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%20%E3%82%A8%E3%82%AF%E3%82%BB%E3%83%AA%E3%82%A2"},
+{
     "id": "suit-140",
     "name": "∫エクストリームガンダム",
     "cost": 2500,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E2%88%AB%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-141",
     "name": "N-EXTREMEガンダム ヴィシャス",
     "cost": 2500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=N-EXTREME%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%20%E3%83%B4%E3%82%A3%E3%82%B7%E3%83%A3%E3%82%B9"},
+{
     "id": "suit-142",
     "name": "ガンダム",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-143",
     "name": "ガンダム(Gメカ)",
     "cost": 2000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%28G%E3%83%A1%E3%82%AB%29"},
+{
     "id": "suit-144",
     "name": "シャア専用ゲルググ",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B7%E3%83%A3%E3%82%A2%E5%B0%82%E7%94%A8%E3%82%B2%E3%83%AB%E3%82%B0%E3%82%B0"},
+{
     "id": "suit-145",
     "name": "ギャン",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AE%E3%83%A3%E3%83%B3"},
+{
     "id": "suit-146",
     "name": "ディジェ",
     "cost": 2000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%87%E3%82%A3%E3%82%B8%E3%82%A7"},
+{
     "id": "suit-147",
     "name": "ガンダムMk-II",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0Mk-II"},
+{
     "id": "suit-148",
     "name": "メッサーラ",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%A1%E3%83%83%E3%82%B5%E3%83%BC%E3%83%A9"},
+{
     "id": "suit-149",
     "name": "ガブスレイ",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%96%E3%82%B9%E3%83%AC%E3%82%A4"},
+{
     "id": "suit-150",
     "name": "マラサイ",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%9E%E3%83%A9%E3%82%B5%E3%82%A4"},
+{
     "id": "suit-151",
     "name": "ギャプラン",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AE%E3%83%A3%E3%83%97%E3%83%A9%E3%83%B3"},
+{
     "id": "suit-152",
     "name": "キュベレイMk-II(プル)",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AD%E3%83%A5%E3%83%99%E3%83%AC%E3%82%A4Mk-II%28%E3%83%97%E3%83%AB%29"},
+{
     "id": "suit-153",
     "name": "ザクIII改",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B6%E3%82%AFIII%E6%94%B9"},
+{
     "id": "suit-154",
     "name": "ドーベン・ウルフ",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%89%E3%83%BC%E3%83%99%E3%83%B3%E3%83%BB%E3%82%A6%E3%83%AB%E3%83%95"},
+{
     "id": "suit-155",
     "name": "アッガイ(ハマーン搭乗)",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%83%83%E3%82%AC%E3%82%A4%28%E3%83%8F%E3%83%9E%E3%83%BC%E3%83%B3%E6%90%AD%E4%B9%97%29"},
+{
     "id": "suit-156",
     "name": "Zガンダム(ルー搭乗)",
     "cost": 2000,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=Z%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%28%E3%83%AB%E3%83%BC%E6%90%AD%E4%B9%97%29"},
+{
     "id": "suit-157",
     "name": "ヤクト・ドーガ",
     "cost": 2000,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%A4%E3%82%AF%E3%83%88%E3%83%BB%E3%83%89%E3%83%BC%E3%82%AC"},
+{
     "id": "suit-158",
     "name": "ヴィクトリーガンダム",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%B4%E3%82%A3%E3%82%AF%E3%83%88%E3%83%AA%E3%83%BC%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-159",
     "name": "ゲドラフ",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B2%E3%83%89%E3%83%A9%E3%83%95"},
+{
     "id": "suit-160",
     "name": "デルタプラス",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%87%E3%83%AB%E3%82%BF%E3%83%97%E3%83%A9%E3%82%B9"},
+{
     "id": "suit-161",
     "name": "クシャトリヤ",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AF%E3%82%B7%E3%83%A3%E3%83%88%E3%83%AA%E3%83%A4"},
+{
     "id": "suit-162",
     "name": "ローゼン・ズール",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%AD%E3%83%BC%E3%82%BC%E3%83%B3%E3%83%BB%E3%82%BA%E3%83%BC%E3%83%AB"},
+{
     "id": "suit-163",
     "name": "ナラティブガンダム",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%8A%E3%83%A9%E3%83%86%E3%82%A3%E3%83%96%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-164",
     "name": "シナンジュ・スタイン",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B7%E3%83%8A%E3%83%B3%E3%82%B8%E3%83%A5%E3%83%BB%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%B3"},
+{
     "id": "suit-165",
     "name": "高機動型ザクII後期型(ジョニー・ライデン機)",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E9%AB%98%E6%A9%9F%E5%8B%95%E5%9E%8B%E3%82%B6%E3%82%AFII%E5%BE%8C%E6%9C%9F%E5%9E%8B%28%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC%E3%83%BB%E3%83%A9%E3%82%A4%E3%83%87%E3%83%B3%E6%A9%9F%29"},
+{
     "id": "suit-166",
     "name": "高機動型ザクII改(シン・マツナガ機)",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E9%AB%98%E6%A9%9F%E5%8B%95%E5%9E%8B%E3%82%B6%E3%82%AFII%E6%94%B9%28%E3%82%B7%E3%83%B3%E3%83%BB%E3%83%9E%E3%83%84%E3%83%8A%E3%82%AC%E6%A9%9F%29"},
+{
     "id": "suit-167",
     "name": "ブルーディスティニー1号機",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%96%E3%83%AB%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%83%8B%E3%83%BC1%E5%8F%B7%E6%A9%9F"},
+{
     "id": "suit-168",
     "name": "ペイルライダー(陸戦重装仕様)",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%9A%E3%82%A4%E3%83%AB%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%28%E9%99%B8%E6%88%A6%E9%87%8D%E8%A3%85%E4%BB%95%E6%A7%98%29"},
+{
     "id": "suit-169",
     "name": "高機動型ゲルググ(ヴィンセント機)",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E9%AB%98%E6%A9%9F%E5%8B%95%E5%9E%8B%E3%82%B2%E3%83%AB%E3%82%B0%E3%82%B0%28%E3%83%B4%E3%82%A3%E3%83%B3%E3%82%BB%E3%83%B3%E3%83%88%E6%A9%9F%29"},
+{
     "id": "suit-170",
     "name": "イフリート(シュナイド機)",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A4%E3%83%95%E3%83%AA%E3%83%BC%E3%83%88%28%E3%82%B7%E3%83%A5%E3%83%8A%E3%82%A4%E3%83%89%E6%A9%9F%29"},
+{
     "id": "suit-171",
     "name": "ガンダム試作1号機フルバーニアン",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E8%A9%A6%E4%BD%9C1%E5%8F%B7%E6%A9%9F%E3%83%95%E3%83%AB%E3%83%90%E3%83%BC%E3%83%8B%E3%82%A2%E3%83%B3"},
+{
     "id": "suit-172",
     "name": "ガーベラ・テトラ",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%BC%E3%83%99%E3%83%A9%E3%83%BB%E3%83%86%E3%83%88%E3%83%A9"},
+{
     "id": "suit-173",
     "name": "シャイニングガンダム",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-174",
     "name": "ドラゴンガンダム",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-175",
     "name": "ガンダムマックスター",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%9E%E3%83%83%E3%82%AF%E3%82%B9%E3%82%BF%E3%83%BC"},
+{
     "id": "suit-176",
     "name": "ガンダムローズ",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%AD%E3%83%BC%E3%82%BA"},
+{
     "id": "suit-177",
     "name": "ノーベルガンダム",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%8E%E3%83%BC%E3%83%99%E3%83%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-178",
     "name": "ウイングガンダム",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A6%E3%82%A4%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-179",
     "name": "ガンダムデスサイズヘル",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%87%E3%82%B9%E3%82%B5%E3%82%A4%E3%82%BA%E3%83%98%E3%83%AB"},
+{
     "id": "suit-180",
     "name": "ガンダムヘビーアームズ改",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%98%E3%83%93%E3%83%BC%E3%82%A2%E3%83%BC%E3%83%A0%E3%82%BA%E6%94%B9"},
+{
     "id": "suit-181",
     "name": "ガンダムサンドロック改",
     "cost": 2000,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%B5%E3%83%B3%E3%83%89%E3%83%AD%E3%83%83%E3%82%AF%E6%94%B9"},
+{
     "id": "suit-182",
     "name": "ガンダムX",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0X"},
+{
     "id": "suit-183",
     "name": "ベルティゴ",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%99%E3%83%AB%E3%83%86%E3%82%A3%E3%82%B4"},
+{
     "id": "suit-184",
     "name": "コレンカプル",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B3%E3%83%AC%E3%83%B3%E3%82%AB%E3%83%97%E3%83%AB"},
+{
     "id": "suit-185",
     "name": "ストライクガンダム",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-186",
     "name": "イージスガンダム",
     "cost": 2000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A4%E3%83%BC%E3%82%B8%E3%82%B9%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-187",
     "name": "ブリッツガンダム",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%96%E3%83%AA%E3%83%83%E3%83%84%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-188",
     "name": "カラミティガンダム",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AB%E3%83%A9%E3%83%9F%E3%83%86%E3%82%A3%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-189",
     "name": "フォビドゥンガンダム",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%95%E3%82%A9%E3%83%93%E3%83%89%E3%82%A5%E3%83%B3%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-190",
     "name": "レイダーガンダム",
     "cost": 2000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%AC%E3%82%A4%E3%83%80%E3%83%BC%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-191",
     "name": "インパルスガンダム(ルナマリア搭乗)",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A4%E3%83%B3%E3%83%91%E3%83%AB%E3%82%B9%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%28%E3%83%AB%E3%83%8A%E3%83%9E%E3%83%AA%E3%82%A2%E6%90%AD%E4%B9%97%29"},
+{
     "id": "suit-192",
     "name": "グフイグナイテッド",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B0%E3%83%95%E3%82%A4%E3%82%B0%E3%83%8A%E3%82%A4%E3%83%86%E3%83%83%E3%83%89"},
+{
     "id": "suit-193",
     "name": "ストライクルージュ(オオトリ装備)",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%B8%E3%83%A5%28%E3%82%AA%E3%82%AA%E3%83%88%E3%83%AA%E8%A3%85%E5%82%99%29"},
+{
     "id": "suit-194",
     "name": "ガナーザクウォーリア",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%8A%E3%83%BC%E3%82%B6%E3%82%AF%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%AA%E3%82%A2"},
+{
     "id": "suit-195",
     "name": "ガイアガンダム",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%82%A4%E3%82%A2%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-196",
     "name": "インフィニットジャスティスガンダム(ラクス搭乗)",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A4%E3%83%B3%E3%83%95%E3%82%A3%E3%83%8B%E3%83%83%E3%83%88%E3%82%B8%E3%83%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%82%B9%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%28%E3%83%A9%E3%82%AF%E3%82%B9%E6%90%AD%E4%B9%97%29"},
+{
     "id": "suit-197",
     "name": "スターゲイザー",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B2%E3%82%A4%E3%82%B6%E3%83%BC"},
+{
     "id": "suit-198",
     "name": "アストレイレッドフレーム",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AC%E3%82%A4%E3%83%AC%E3%83%83%E3%83%89%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0"},
+{
     "id": "suit-199",
     "name": "ドレッドノートガンダム(Xアストレイ)",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%89%E3%83%AC%E3%83%83%E3%83%89%E3%83%8E%E3%83%BC%E3%83%88%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%28X%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AC%E3%82%A4%29"},
+{
     "id": "suit-200",
     "name": "アストレイブルーフレームセカンドL",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AC%E3%82%A4%E3%83%96%E3%83%AB%E3%83%BC%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%82%BB%E3%82%AB%E3%83%B3%E3%83%89L"},
+{
     "id": "suit-201",
     "name": "アストレイゴールドフレーム天",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AC%E3%82%A4%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E5%A4%A9"},
+{
     "id": "suit-202",
     "name": "ハイペリオンガンダム",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%8F%E3%82%A4%E3%83%9A%E3%83%AA%E3%82%AA%E3%83%B3%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-203",
     "name": "ガンダムエクシア",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%A8%E3%82%AF%E3%82%B7%E3%82%A2"},
+{
     "id": "suit-204",
     "name": "ガンダムデュナメス",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%87%E3%83%A5%E3%83%8A%E3%83%A1%E3%82%B9"},
+{
     "id": "suit-205",
     "name": "ガンダムキュリオス",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%AD%E3%83%A5%E3%83%AA%E3%82%AA%E3%82%B9"},
+{
     "id": "suit-206",
     "name": "ガンダムヴァーチェ",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%B4%E3%82%A1%E3%83%BC%E3%83%81%E3%82%A7"},
+{
     "id": "suit-207",
     "name": "ガンダムスローネツヴァイ",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%B9%E3%83%AD%E3%83%BC%E3%83%8D%E3%83%84%E3%83%B4%E3%82%A1%E3%82%A4"},
+{
     "id": "suit-208",
     "name": "ガンダムスローネドライ",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%B9%E3%83%AD%E3%83%BC%E3%83%8D%E3%83%89%E3%83%A9%E3%82%A4"},
+{
     "id": "suit-209",
     "name": "ガラッゾ(ヒリング・ケア機)",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%A9%E3%83%83%E3%82%BE%28%E3%83%92%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B1%E3%82%A2%E6%A9%9F%29"},
+{
     "id": "suit-210",
     "name": "グラハム専用ユニオンフラッグカスタム",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B0%E3%83%A9%E3%83%8F%E3%83%A0%E5%B0%82%E7%94%A8%E3%83%A6%E3%83%8B%E3%82%AA%E3%83%B3%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0"},
+{
     "id": "suit-211",
     "name": "ガンダムAGE-1",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0AGE-1"},
+{
     "id": "suit-212",
     "name": "ファルシア",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%95%E3%82%A1%E3%83%AB%E3%82%B7%E3%82%A2"},
+{
     "id": "suit-213",
     "name": "G-アルケイン(フルドレス)",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=G-%E3%82%A2%E3%83%AB%E3%82%B1%E3%82%A4%E3%83%B3%28%E3%83%95%E3%83%AB%E3%83%89%E3%83%AC%E3%82%B9%29"},
+{
     "id": "suit-214",
     "name": "マックナイフ(マスク機)",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%9E%E3%83%83%E3%82%AF%E3%83%8A%E3%82%A4%E3%83%95%28%E3%83%9E%E3%82%B9%E3%82%AF%E6%A9%9F%29"},
+{
     "id": "suit-215",
     "name": "モンテーロ",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%A2%E3%83%B3%E3%83%86%E3%83%BC%E3%83%AD"},
+{
     "id": "suit-216",
     "name": "ヘカテー",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%98%E3%82%AB%E3%83%86%E3%83%BC"},
+{
     "id": "suit-217",
     "name": "ガンダム・フラウロス",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%BB%E3%83%95%E3%83%A9%E3%82%A6%E3%83%AD%E3%82%B9"},
+{
     "id": "suit-218",
     "name": "ガンダム・バルバトス",
     "cost": 2000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%BB%E3%83%90%E3%83%AB%E3%83%90%E3%83%88%E3%82%B9"},
+{
     "id": "suit-219",
     "name": "ガンダム・キマリストルーパー",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%BB%E3%82%AD%E3%83%9E%E3%83%AA%E3%82%B9%E3%83%88%E3%83%AB%E3%83%BC%E3%83%91%E3%83%BC"},
+{
     "id": "suit-220",
     "name": "アッガイ(ダリル搭乗)",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%83%83%E3%82%AC%E3%82%A4%28%E3%83%80%E3%83%AA%E3%83%AB%E6%90%AD%E4%B9%97%29"},
+{
     "id": "suit-221",
     "name": "ガンダム・エアリアル",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%BB%E3%82%A8%E3%82%A2%E3%83%AA%E3%82%A2%E3%83%AB"},
+{
     "id": "suit-222",
     "name": "ガンダム・ファラクト",
     "cost": 2000,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%BB%E3%83%95%E3%82%A1%E3%83%A9%E3%82%AF%E3%83%88"},
+{
     "id": "suit-223",
     "name": "赤いガンダム",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E8%B5%A4%E3%81%84%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-224",
     "name": "ビルドストライクガンダム(フルパッケージ)",
     "cost": 2000,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%93%E3%83%AB%E3%83%89%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%82%AF%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%28%E3%83%95%E3%83%AB%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%29"},
+{
     "id": "suit-225",
     "name": "ガンダムX魔王",
     "cost": 2000,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0X%E9%AD%94%E7%8E%8B"},
+{
     "id": "suit-226",
     "name": "ザクアメイジング",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B6%E3%82%AF%E3%82%A2%E3%83%A1%E3%82%A4%E3%82%B8%E3%83%B3%E3%82%B0"},
+{
     "id": "suit-227",
     "name": "ガンダムダブルオーダイバーエース",
     "cost": 2000,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%80%E3%83%96%E3%83%AB%E3%82%AA%E3%83%BC%E3%83%80%E3%82%A4%E3%83%90%E3%83%BC%E3%82%A8%E3%83%BC%E3%82%B9"},
+{
     "id": "suit-228",
     "name": "N-EXTREMEガンダム ザナドゥ",
     "cost": 2000,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=N-EXTREME%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%20%E3%82%B6%E3%83%8A%E3%83%89%E3%82%A5"},
+{
     "id": "suit-229",
     "name": "ガンキャノン",
     "cost": 1500,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%82%AD%E3%83%A3%E3%83%8E%E3%83%B3"},
+{
     "id": "suit-230",
     "name": "シャア専用ザクII",
     "cost": 1500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B7%E3%83%A3%E3%82%A2%E5%B0%82%E7%94%A8%E3%82%B6%E3%82%AFII"},
+{
     "id": "suit-231",
     "name": "ザクII(ドアン機)",
     "cost": 1500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B6%E3%82%AFII%28%E3%83%89%E3%82%A2%E3%83%B3%E6%A9%9F%29"},
+{
     "id": "suit-232",
     "name": "アッガイ",
     "cost": 1500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%83%83%E3%82%AC%E3%82%A4"},
+{
     "id": "suit-233",
     "name": "キュベレイMk-II(プルツー)",
     "cost": 1500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AD%E3%83%A5%E3%83%99%E3%83%AC%E3%82%A4Mk-II%28%E3%83%97%E3%83%AB%E3%83%84%E3%83%BC%29"},
+{
     "id": "suit-234",
     "name": "リ・ガズィ",
     "cost": 1500,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%AA%E3%83%BB%E3%82%AC%E3%82%BA%E3%82%A3"},
+{
     "id": "suit-235",
     "name": "ベルガ・ギロス",
     "cost": 1500,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%99%E3%83%AB%E3%82%AC%E3%83%BB%E3%82%AE%E3%83%AD%E3%82%B9"},
+{
     "id": "suit-236",
     "name": "ガンイージ",
     "cost": 1500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%82%A4%E3%83%BC%E3%82%B8"},
+{
     "id": "suit-237",
     "name": "アレックス",
     "cost": 1500,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9"},
+{
     "id": "suit-238",
     "name": "ザクII改",
     "cost": 1500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B6%E3%82%AFII%E6%94%B9"},
+{
     "id": "suit-239",
     "name": "ケンプファー",
     "cost": 1500,
-    "rank": "S"
-  },
-  {
+    "rank": "S",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B1%E3%83%B3%E3%83%97%E3%83%95%E3%82%A1%E3%83%BC"},
+{
     "id": "suit-240",
     "name": "ガンダムEz8",
     "cost": 1500,
-    "rank": "A＋"
-  },
-  {
+    "rank": "A＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0Ez8"},
+{
     "id": "suit-241",
     "name": "グフ・カスタム",
     "cost": 1500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B0%E3%83%95%E3%83%BB%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0"},
+{
     "id": "suit-242",
     "name": "ヅダ",
     "cost": 1500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%85%E3%83%80"},
+{
     "id": "suit-243",
     "name": "ヒルドルブ",
     "cost": 1500,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%92%E3%83%AB%E3%83%89%E3%83%AB%E3%83%96"},
+{
     "id": "suit-244",
     "name": "イフリート改",
     "cost": 1500,
-    "rank": "A"
-  },
-  {
+    "rank": "A",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A4%E3%83%95%E3%83%AA%E3%83%BC%E3%83%88%E6%94%B9"},
+{
     "id": "suit-245",
     "name": "ライジングガンダム",
     "cost": 1500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%A9%E3%82%A4%E3%82%B8%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-246",
     "name": "カプル",
     "cost": 1500,
-    "rank": "A-"
-  },
-  {
+    "rank": "A-",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AB%E3%83%97%E3%83%AB"},
+{
     "id": "suit-247",
     "name": "バスターガンダム",
     "cost": 1500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
+{
     "id": "suit-248",
     "name": "デュエルガンダムアサルトシュラウド",
     "cost": 1500,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%87%E3%83%A5%E3%82%A8%E3%83%AB%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%82%A2%E3%82%B5%E3%83%AB%E3%83%88%E3%82%B7%E3%83%A5%E3%83%A9%E3%82%A6%E3%83%89"},
+{
     "id": "suit-249",
     "name": "ラゴゥ",
     "cost": 1500,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%A9%E3%82%B4%E3%82%A5"},
+{
     "id": "suit-250",
     "name": "ティエレンタオツー",
     "cost": 1500,
-    "rank": "B"
-  },
-  {
+    "rank": "B",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%86%E3%82%A3%E3%82%A8%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%AA%E3%83%84%E3%83%BC"},
+{
     "id": "suit-251",
     "name": "アヘッド脳量子波対応型(スマルトロン)",
     "cost": 1500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%83%98%E3%83%83%E3%83%89%E8%84%B3%E9%87%8F%E5%AD%90%E6%B3%A2%E5%AF%BE%E5%BF%9C%E5%9E%8B%28%E3%82%B9%E3%83%9E%E3%83%AB%E3%83%88%E3%83%AD%E3%83%B3%29"},
+{
     "id": "suit-252",
     "name": "G-ルシファー",
     "cost": 1500,
-    "rank": "B＋"
-  },
-  {
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=G-%E3%83%AB%E3%82%B7%E3%83%95%E3%82%A1%E3%83%BC"},
+{
     "id": "suit-253",
     "name": "N-EXTREMEガンダム スプレマシー",
     "cost": 1500,
-    "rank": "B＋"
-  }
+    "rank": "B＋",
+    "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=N-EXTREME%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%20%E3%82%B9%E3%83%97%E3%83%AC%E3%83%9E%E3%82%B7%E3%83%BC"}
 ];
