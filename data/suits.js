@@ -358,7 +358,7 @@ export const suits = [
     "id": "suit-60",
     "name": "ハンブラビ",
     "cost": 2500,
-    "rank": "A＋"
+    "rank": "A-"
   },
   {
     "id": "suit-61",
