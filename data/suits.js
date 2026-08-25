@@ -17,7 +17,6 @@ export const suits = [
     "cost": 3000,
     "rank": "A＋",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/pages/177.html"
-    wiki: "https://w.atwiki.jp/exvs2infiniteboost/pages/177.html",
   },
 {
     "id": "suit-4",
