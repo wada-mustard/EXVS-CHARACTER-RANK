@@ -1359,7 +1359,7 @@ export const suits = [
     "id": "suit-227",
     "name": "ガンダムダブルオーダイバーエース",
     "cost": 2000,
-    "rank": "S"
+    "rank": "A＋"
   },
   {
     "id": "suit-228",
