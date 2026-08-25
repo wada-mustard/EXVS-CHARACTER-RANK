@@ -1,3 +1,5 @@
+export const currentVersion = "Ver.20260729";
+
 export const updates = [
   {
     date: "2026/08/25",
