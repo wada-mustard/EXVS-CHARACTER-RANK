@@ -102,19 +102,18 @@ export default function CostPage({ params }) {
         }
 
         .cost-nav {
-          display: flex;
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
           gap: 8px;
-          overflow-x: auto;
           margin-bottom: 30px;
-          padding-bottom: 4px;
         }
 
         .cost-nav a {
-          flex: 0 0 auto;
           background: white;
           border: 1px solid #e5e7eb;
           border-radius: 10px;
-          padding: 10px 20px;
+          padding: 10px;
+          text-align: center;
           font-weight: 700;
         }
 
@@ -151,10 +150,12 @@ export default function CostPage({ params }) {
           font-size: 20px;
         }
 
+        /* 格子状の2列 */
         .machine-grid {
           display: grid;
           grid-template-columns: repeat(2, minmax(0, 1fr));
-          gap: 14px;
+          gap: 12px;
+          align-items: start;
         }
 
         .machine-card {
@@ -167,17 +168,9 @@ export default function CostPage({ params }) {
           transition: transform 0.15s ease, box-shadow 0.15s ease;
         }
 
-        .machine-card:nth-child(even) {
-          transform: translateY(10px);
-        }
-
         .machine-card:hover {
           transform: translateY(-3px);
           box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-        }
-
-        .machine-card:nth-child(even):hover {
-          transform: translateY(7px);
         }
 
         .machine-image {
@@ -195,11 +188,11 @@ export default function CostPage({ params }) {
         }
 
         .machine-info {
-          padding: 11px 12px 13px;
+          padding: 10px 11px 12px;
         }
 
         .machine-name {
-          margin: 0 0 9px;
+          margin: 0 0 8px;
           font-size: 14px;
           line-height: 1.45;
           font-weight: 700;
@@ -234,6 +227,7 @@ export default function CostPage({ params }) {
           font-size: 12px;
         }
 
+        /* タブレット・PC */
         @media (min-width: 768px) {
           .container {
             padding-left: 24px;
@@ -242,21 +236,15 @@ export default function CostPage({ params }) {
 
           .machine-grid {
             grid-template-columns: repeat(3, minmax(0, 1fr));
-            gap: 18px;
-          }
-
-          .machine-card:nth-child(even) {
-            transform: translateY(12px);
-          }
-
-          .machine-card:nth-child(even):hover {
-            transform: translateY(8px);
+            gap: 16px;
           }
         }
 
+        /* 大きいPC */
         @media (min-width: 1100px) {
           .machine-grid {
             grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 18px;
           }
 
           .header h1 {
@@ -270,6 +258,7 @@ export default function CostPage({ params }) {
           <div className="site-name">
             EXVS CHARACTER RANK
           </div>
+
           <h1>{cost}コスト 機体ランク</h1>
         </div>
       </header>
