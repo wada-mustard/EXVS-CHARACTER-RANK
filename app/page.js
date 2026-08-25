@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { updates } from "../data/updates";
+import { updates, currentVersion } from "../data/updates";
 
 const costs = [3000, 2500, 2000, 1500];
 
@@ -35,6 +35,12 @@ export default function Home() {
           <p>
             機体の評価・ランクをコスト別にまとめています。
           </p>
+
+          {/* 現在の評価バッジ */}
+          <div className="version-badge">
+            <span>現在の評価</span>
+            <strong>{currentVersion}</strong>
+          </div>
         </section>
 
         {/* 更新履歴 */}
@@ -53,7 +59,6 @@ export default function Home() {
 
                 <div className="update-content">
                   <strong>{update.title}</strong>
-
                   <p>{update.text}</p>
                 </div>
               </div>
@@ -85,7 +90,6 @@ export default function Home() {
             コストを選択すると、
             S・A+・A・A-・B+・B・C・新機体の順に
             機体を確認できます。
-
             <br />
             ランク評価基準
             <br />
@@ -96,7 +100,6 @@ export default function Home() {
             ・対応力の高さ
             <br />
             ・対策の難しさ
-
             <br />
             サイト運営者の実力
             <br />
@@ -106,10 +109,37 @@ export default function Home() {
       </div>
 
       <footer>
-        © EXVS 機体ランク
+        © イニブ機体ランク
       </footer>
 
       <style jsx>{`
+
+        /* 現在の評価 */
+
+        .version-badge {
+          display: inline-flex;
+          align-items: center;
+          gap: 12px;
+          margin-top: 20px;
+          padding: 10px 16px;
+          border-radius: 999px;
+          background: #111827;
+          color: white;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+        }
+
+        .version-badge span {
+          font-size: 12px;
+          opacity: 0.7;
+        }
+
+        .version-badge strong {
+          font-size: 15px;
+          letter-spacing: 0.03em;
+        }
+
+        /* 更新履歴 */
+
         .updates {
           background: #ffffff;
           border: 1px solid #e5e7eb;
@@ -185,6 +215,20 @@ export default function Home() {
         }
 
         @media (max-width: 600px) {
+
+          .version-badge {
+            margin-top: 16px;
+            padding: 9px 14px;
+          }
+
+          .version-badge span {
+            font-size: 11px;
+          }
+
+          .version-badge strong {
+            font-size: 14px;
+          }
+
           .updates-header {
             padding: 16px;
           }
@@ -210,7 +254,9 @@ export default function Home() {
           .update-content p {
             font-size: 12px;
           }
+
         }
+
       `}</style>
     </main>
   );
