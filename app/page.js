@@ -10,7 +10,7 @@ export default function Home() {
       <header className="site-header">
         <div className="wrap">
           <Link href="/" className="site-title">
-            エクバ機体ランク
+            イニブ機体ランク
           </Link>
 
           <div className="site-sub">
@@ -28,7 +28,7 @@ export default function Home() {
           <h1>
             機動戦士ガンダム
             <br />
-            エクストリームバーサス2
+            エクストリームバーサス2インフィニットブースト
           </h1>
 
           <p>
@@ -60,6 +60,14 @@ export default function Home() {
             コストを選択すると、
             S・A+・A・A-・B+・B・C・新機体の順に
             機体を確認できます。
+            ランク評価基準
+            ・機体独自の強さがある
+            ・特定の条件下で高いパフォーマンスを発揮する
+            ・対応力の高さ
+            ・対策の難しさ
+
+            サイト運営者の実力
+            ・チームホールドExtreme∞~2
           </p>
         </section>
       </div>
