@@ -270,6 +270,26 @@ export default function SuitPage({ params }) {
               </p>
             </div>
 
+{suit.wiki && (
+  <a
+    href={suit.wiki}
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: "block",
+      marginTop: "20px",
+      padding: "14px",
+      background: "#111827",
+      color: "white",
+      textAlign: "center",
+      borderRadius: "10px",
+      fontWeight: "700",
+      textDecoration: "none",
+    }}
+  >
+    Wikiを見る ↗
+  </a>
+)}
           </div>
 
         </article>
