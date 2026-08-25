@@ -100,13 +100,13 @@ export const suits = [
     "id": "suit-17",
     "name": "クロスボーン・ガンダムX1フルクロス",
     "cost": 3000,
-    "rank": "A"
+    "rank": "A＋"
   },
   {
     "id": "suit-18",
     "name": "ゴッドガンダム",
     "cost": 3000,
-    "rank": "B＋"
+    "rank": "A-"
   },
   {
     "id": "suit-19",
@@ -172,7 +172,7 @@ export const suits = [
     "id": "suit-29",
     "name": "ストライクフリーダムガンダム",
     "cost": 3000,
-    "rank": "A"
+    "rank": "A-"
   },
   {
     "id": "suit-30",
@@ -286,7 +286,7 @@ export const suits = [
     "id": "suit-48",
     "name": "ガンダム・バエル",
     "cost": 3000,
-    "rank": "S"
+    "rank": "A＋"
   },
   {
     "id": "suit-49",
