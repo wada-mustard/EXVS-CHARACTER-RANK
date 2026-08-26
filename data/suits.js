@@ -328,7 +328,7 @@ export const suits = [
     "id": "suit-55",
     "name": "ジオング",
     "cost": 2500,
-    "rank": "B＋",
+    "rank": "B",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B8%E3%82%AA%E3%83%B3%E3%82%B0"},
 {
     "id": "suit-56",
@@ -520,7 +520,7 @@ export const suits = [
     "id": "suit-87",
     "name": "ジャスティスガンダム",
     "cost": 2500,
-    "rank": "A-",
+    "rank": "B＋",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B8%E3%83%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%82%B9%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
 {
     "id": "suit-88",
@@ -568,7 +568,7 @@ export const suits = [
     "id": "suit-95",
     "name": "ライジングフリーダムガンダム",
     "cost": 2500,
-    "rank": "A-",
+    "rank": "B＋",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%A9%E3%82%A4%E3%82%B8%E3%83%B3%E3%82%B0%E3%83%95%E3%83%AA%E3%83%BC%E3%83%80%E3%83%A0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
 {
     "id": "suit-96",
@@ -700,7 +700,7 @@ export const suits = [
     "id": "suit-117",
     "name": "ガンダム・グシオンリベイクフルシティ",
     "cost": 2500,
-    "rank": "B＋",
+    "rank": "B",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%BB%E3%82%B0%E3%82%B7%E3%82%AA%E3%83%B3%E3%83%AA%E3%83%99%E3%82%A4%E3%82%AF%E3%83%95%E3%83%AB%E3%82%B7%E3%83%86%E3%82%A3"},
 {
     "id": "suit-118",
@@ -760,7 +760,7 @@ export const suits = [
     "id": "suit-127",
     "name": "キュベレイパピヨン",
     "cost": 2500,
-    "rank": "A-",
+    "rank": "A",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AD%E3%83%A5%E3%83%99%E3%83%AC%E3%82%A4%E3%83%91%E3%83%94%E3%83%A8%E3%83%B3"},
 {
     "id": "suit-128",
@@ -784,7 +784,7 @@ export const suits = [
     "id": "suit-131",
     "name": "トランジェントガンダム",
     "cost": 2500,
-    "rank": "A",
+    "rank": "A-",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%88%E3%83%A9%E3%83%B3%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
 {
     "id": "suit-132",
@@ -886,7 +886,7 @@ export const suits = [
     "id": "suit-148",
     "name": "メッサーラ",
     "cost": 2000,
-    "rank": "A-",
+    "rank": "B＋",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%A1%E3%83%83%E3%82%B5%E3%83%BC%E3%83%A9"},
 {
     "id": "suit-149",
@@ -946,7 +946,7 @@ export const suits = [
     "id": "suit-158",
     "name": "ヴィクトリーガンダム",
     "cost": 2000,
-    "rank": "B＋",
+    "rank": "B",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%B4%E3%82%A3%E3%82%AF%E3%83%88%E3%83%AA%E3%83%BC%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0"},
 {
     "id": "suit-159",
@@ -1330,7 +1330,7 @@ export const suits = [
     "id": "suit-222",
     "name": "ガンダム・ファラクト",
     "cost": 2000,
-    "rank": "B＋",
+    "rank": "A-",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%BB%E3%83%95%E3%82%A1%E3%83%A9%E3%82%AF%E3%83%88"},
 {
     "id": "suit-223",
@@ -1390,7 +1390,7 @@ export const suits = [
     "id": "suit-232",
     "name": "アッガイ",
     "cost": 1500,
-    "rank": "B＋",
+    "rank": "B",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A2%E3%83%83%E3%82%AC%E3%82%A4"},
 {
     "id": "suit-233",
@@ -1414,7 +1414,7 @@ export const suits = [
     "id": "suit-236",
     "name": "ガンイージ",
     "cost": 1500,
-    "rank": "B＋",
+    "rank": "B",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AC%E3%83%B3%E3%82%A4%E3%83%BC%E3%82%B8"},
 {
     "id": "suit-237",
@@ -1462,7 +1462,7 @@ export const suits = [
     "id": "suit-244",
     "name": "イフリート改",
     "cost": 1500,
-    "rank": "A",
+    "rank": "A-",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A4%E3%83%95%E3%83%AA%E3%83%BC%E3%83%88%E6%94%B9"},
 {
     "id": "suit-245",
@@ -1474,7 +1474,7 @@ export const suits = [
     "id": "suit-246",
     "name": "カプル",
     "cost": 1500,
-    "rank": "A-",
+    "rank": "A",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%AB%E3%83%97%E3%83%AB"},
 {
     "id": "suit-247",
@@ -1498,7 +1498,7 @@ export const suits = [
     "id": "suit-250",
     "name": "ティエレンタオツー",
     "cost": 1500,
-    "rank": "B",
+    "rank": "B＋",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%83%86%E3%82%A3%E3%82%A8%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%AA%E3%83%84%E3%83%BC"},
 {
     "id": "suit-251",
