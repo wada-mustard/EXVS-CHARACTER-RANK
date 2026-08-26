@@ -52,7 +52,7 @@ export const suits = [
     "id": "suit-9",
     "name": "シナンジュ",
     "cost": 3000,
-    "rank": "B＋",
+    "rank": "A-",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%B7%E3%83%8A%E3%83%B3%E3%82%B8%E3%83%A5"},
 {
     "id": "suit-10",
