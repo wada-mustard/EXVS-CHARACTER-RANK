@@ -748,7 +748,7 @@ export const suits = [
     "id": "suit-125",
     "name": "ウイングガンダムフェニーチェ",
     "cost": 2500,
-    "rank": "A",
+    "rank": "A＋",
     "wiki": "https://w.atwiki.jp/exvs2infiniteboost/?page=%E3%82%A6%E3%82%A4%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0%E3%83%95%E3%82%A7%E3%83%8B%E3%83%BC%E3%83%81%E3%82%A7"},
 {
     "id": "suit-126",
